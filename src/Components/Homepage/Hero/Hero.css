@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,700&display=swap");
+
+.hero {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  background-image: url("https://images.unsplash.com/photo-1605908580297-f3e1c02e64ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 5rem;
+  font-family: "Merriweather", serif;
+}
+
+.hero p {
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+@media only screen and (max-width: 900px) {
+  .hero {
+    height: 100vh;
+  }
+}

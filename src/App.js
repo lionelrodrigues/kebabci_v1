@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Hamburger from "./Components/Navbar/Hamburger";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./Components/Homepage/Homepage";
+import Bulkmenu from "./Components/Bulkmenu/Bulkmenu";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="outer-container" id="outer-container">
+      <Router>
+        <Hamburger />
+        <Switch>
+          <Route path="/" exact component={Home} />
+        </Switch>
+        <Switch>
+          <Route path="/bulk-order" exact component={Bulkmenu} />
+        </Switch>
+      </Router>
     </div>
   );
 }

@@ -1,0 +1,114 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #fff;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  transition: all 0.15s ease-in;
+  background: #f7040c;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+.bm-cross-button > button {
+  outline: none;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  color: #fff;
+  font-size: 2rem;
+  outline: none;
+}
+.bm-cross:active {
+  outline: none;
+}
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #ae0d12;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  outline: none;
+}
+
+/* nav link acktive */
+.menu-item:hover {
+  padding-right: 15px;
+  border-right: 2px solid white;
+  transition: all 0.15s ease-in;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+.btn-outline {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: 2px solid #fff;
+  margin-top: 2rem;
+}
+.btn-outline:hover {
+  color: #ae0d12;
+  background-color: #fff;
+  transition: all 0.3s ease-in;
+}
+.quick-links > a > i {
+  color: #fff;
+  padding: 0.5rem;
+}
+.logo {
+  width: 100px;
+  height: 60px;
+  margin: 18px;
+}
+.nav {
+  background-color: hsl(0, 0%, 9%);
+  position: fixed;
+  overflow: hidden;
+  top: 0px;
+  width: 100%;
+}
