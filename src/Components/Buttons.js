@@ -24,8 +24,10 @@ export const Button = styled.button`
 export const Title = styled.h2`
   font-family: merriweather, serif;
   font-style: normal;
-  font-weight: 300;
-  color: #ae0d12;
+  font-weight: 500;
+  color: ${(props) => (props.primary ? "#fff" : "#ae0d12")};
+  letter-spacing: 2px;
+  text-transform: uppercase;
 `;
 export const P = styled.p`
   color: #fff;

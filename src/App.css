@@ -11,3 +11,7 @@
 .main {
   height: 100%;
 }
+.dummy-in {
+  height: 100vh;
+  background-color: aqua;
+}

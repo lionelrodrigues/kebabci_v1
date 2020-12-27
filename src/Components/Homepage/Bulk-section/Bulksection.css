@@ -1,5 +1,5 @@
 .bulk-section {
-  height: 90vh;
+  height: max-content;
   background-image: url("https://images.unsplash.com/photo-1539755530862-00f623c00f52?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
   background-position: center;
   background-repeat: no-repeat;
@@ -7,39 +7,43 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.Glass-container {
+  z-index: 0;
   position: relative;
-  width: 70vw;
-  height: 50vh;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(30px);
-  border-radius: 20px;
+  flex-wrap: wrap;
+}
+.bulk-section::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.349);
+}
+.inner-container {
+  position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  padding: 1rem 4rem;
+  flex-wrap: wrap;
 }
-.Glass-container h2 {
-  font-size: 3rem;
-  text-transform: uppercase;
+.inner-container > p {
+  padding: 1rem 4rem;
 }
-.Glass-container p {
-  font-size: larger;
-  color: #ffffff;
+.inner-container > H2 {
   padding: 1rem 2rem;
-  margin-top: 1rem;
+  color: #fccf3f;
 }
 @media only screen and (max-width: 900px) {
-  .Glass-container h2 {
-    font-size: 2rem;
+  .inner-container {
+    padding: 0.5rem 1rem;
   }
-  .Glass-container p {
-    font-size: medium;
+  .inner-container > H2 {
+    padding: 0.5rem 1rem;
   }
-  .Glass-container {
-    width: 70vw;
-    height: 70vh;
+  .inner-container > p {
+    padding: 0.5rem 1rem;
   }
 }

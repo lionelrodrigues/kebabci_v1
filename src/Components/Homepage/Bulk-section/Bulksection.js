@@ -1,29 +1,25 @@
 import React from "react";
-import { Button, Title } from "../../Buttons";
+import { Button, Title, P } from "../../Buttons";
 import "./Bulksection.css";
-import Fade from "react-reveal/Fade";
-import Zoom from "react-reveal/Zoom";
 
 function Bulksection() {
   return (
     <div className="bulk-section">
-      <Fade duration={500}>
-        <div className="Glass-container">
-          <Zoom left delay={500}>
-            <Title>try our bulk menu ?</Title>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English. Many desktop
-              publishing packages and web page editors now use Lorem Ipsum as
-              their default model text, and a search.
-            </p>
-            <Button primary> Bulk Menu</Button>
-          </Zoom>
-        </div>
-      </Fade>
+      <div className="inner-container">
+        <Title>
+          HAVING A PARTY? A FAMILY LUNKCH ? <br />
+          TRY OUR BULK MENU
+        </Title>
+        <P>
+          Lorem Ipsum has been the industry's standard dummy text ever since the
+          1500s, when an unknown printer took a galley of type and scrambled it
+          to make a type specimen book. It has survived not only five centuries,
+          but also the leap into electronic typesetting, remaining essentially
+          unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containin
+        </P>
+        <Button>Bulk menu</Button>
+      </div>
     </div>
   );
 }

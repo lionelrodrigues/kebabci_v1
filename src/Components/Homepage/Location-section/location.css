@@ -1,0 +1,43 @@
+.location {
+  display: flex;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #171717;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.container1 {
+  height: 100%;
+  width: 100%;
+  align-self: stretch;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+.container1 h2 {
+  margin: 2rem 1rem;
+}
+.inner-text {
+  width: max-content;
+}
+.inner-text h3 {
+  color: #ae0d12;
+}
+.container2 {
+  flex: 1.5;
+}
+@media only screen and (max-width: 600px) {
+  .location {
+    flex-direction: column;
+  }
+  .container2 {
+    flex: 1;
+  }
+  .container2 iframe {
+    width: max-content;
+  }
+}
