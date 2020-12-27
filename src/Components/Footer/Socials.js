@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import React from "react";
 import menuItems from "../Navbar/Menuitems";
 import { Link } from "react-router-dom";
@@ -12,14 +13,10 @@ function Socials() {
               to={item.to}
               id={item.id}
               className={item.cName}
-              onClick={
-                item.extern
-                  ? (e) => {
-                      e.preventDefault();
-                      window.open(item.window);
-                    }
-                  : alert("click again")
-              }
+              onClick={(e) => {
+                e.preventDefault();
+                window.open(item.window);
+              }}
               key={index}
             >
               {item.title}
