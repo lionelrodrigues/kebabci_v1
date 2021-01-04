@@ -27,7 +27,6 @@ export const Title = styled.h1`
   font-weight: 600;
   color: ${(props) => (props.primary ? "#fff" : "#ae0d12")};
   letter-spacing: 2px;
-  text-transform: uppercase;
   padding: 1rem 0.5rem;
 `;
 export const P = styled.p`

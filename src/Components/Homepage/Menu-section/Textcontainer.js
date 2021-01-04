@@ -10,14 +10,13 @@ function Textcontainer() {
         </span>
         Fine dine at our restraunt
       </P>
-      <Title primary>BEST RECIPES </Title>
-      <Title primary>IN TWON</Title>
+      <Title primary>BEST RECIPES IN TWON</Title>
       <div className="pcontent">
         <P>
           All of the food served is prepared in our kitchen using our own
-          recipes. We make gyros from the freshest and highest-quality lamb and
-          chicken available, and every other ingredient we use in our dishes is
-          equally fine and fresh.
+          recipes. We make kebabci from the freshest and highest-quality lamb
+          and chicken available, and every other ingredient we use in our dishes
+          is equally fine and fresh.
         </P>
       </div>
       <Button>view menu</Button>

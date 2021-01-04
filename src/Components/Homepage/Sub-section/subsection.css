@@ -44,7 +44,7 @@
 }
 @media only screen and (max-width: 900px) {
   .sub-section {
-    height: 50vh;
+    height: fit-content;
   }
   .subsection-container {
     flex-direction: column;
