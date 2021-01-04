@@ -6,6 +6,8 @@ import Subsection from "./Sub-section/Subsection";
 import Footer from "../Footer/Footer";
 import Location from "./Location-section/Location";
 import Menuratings from "./Menu-rateings/Menuratings";
+import Subsectionred from "./Sub-section/Subsectionred";
+import Menusection from "./Menu-section/Menusection";
 
 function Homepage() {
   return (
@@ -13,7 +15,9 @@ function Homepage() {
       <Nav />
       <Hero />
       <Subsection />
+      <Menusection />
       <Bulksection />
+      <Subsectionred />
       <Menuratings />
       <Location />
       <Footer />

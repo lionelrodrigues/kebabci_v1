@@ -21,13 +21,14 @@ export const Button = styled.button`
     outline: none;
   }
 `;
-export const Title = styled.h2`
+export const Title = styled.h1`
   font-family: merriweather, serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   color: ${(props) => (props.primary ? "#fff" : "#ae0d12")};
   letter-spacing: 2px;
   text-transform: uppercase;
+  padding: 1rem 0.5rem;
 `;
 export const P = styled.p`
   color: #fff;

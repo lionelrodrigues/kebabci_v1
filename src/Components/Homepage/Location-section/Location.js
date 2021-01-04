@@ -5,7 +5,7 @@ function Location() {
   return (
     <div className="location">
       <div className="container1">
-        <Title primary>Location</Title>
+        <Title>Location</Title>
         <div className="inner-text">
           <h3>Adress</h3>
           <P>Kodailbail, Mangalore, Karnataka 575003</P>

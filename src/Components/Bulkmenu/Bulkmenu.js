@@ -1,11 +1,10 @@
 import React from "react";
-import Dummy from "./Dummy";
+import Bulkhero from "./Bulk-hero/Bulkhero";
 
 function Bulkmenu() {
   return (
-    <div className="main">
-      <img src="/images/2.png" alt="menu" className="image" />
-      <Dummy></Dummy>
+    <div>
+      <Bulkhero />
     </div>
   );
 }

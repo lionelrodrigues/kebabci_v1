@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+.bulk-hero {
+  height: 50vh;
+  position: relative;
+}
+#videoBG {
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+.textdiv {
+  position: absolute;
+}
+@media (min-aspect-ratio: 16/9) {
+  #videoBG {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #videoBG {
+    width: auto;
+    height: 100%;
+  }
+}
