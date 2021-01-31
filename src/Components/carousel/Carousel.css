@@ -1,0 +1,31 @@
+.container {
+  padding: 10px;
+  background: #419be000;
+  width: 90%;
+  margin: 1rem 1rem;
+  position: relative;
+  height: 100%;
+}
+
+.slick-slide img {
+  margin: auto;
+}
+.img-carousel img {
+  height: 100%;
+  width: 100%;
+}
+.Carousal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.carousel-info {
+  position: absolute;
+  top: 10px;
+}
+@media only screen and (max-width: 1000px) {
+  .Carousal-container {
+    margin: 0.5rem;
+  }
+}

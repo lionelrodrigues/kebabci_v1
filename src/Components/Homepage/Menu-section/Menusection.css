@@ -8,6 +8,7 @@
 .img-container img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 .img-container {
   width: 80%;
@@ -15,7 +16,7 @@
 }
 
 .text-container {
-  background-color: #ae0d12;
+  background-color: #171717;
   flex-wrap: wrap;
   flex: 1;
 }

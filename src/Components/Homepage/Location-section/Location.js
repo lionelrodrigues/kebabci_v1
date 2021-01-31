@@ -15,16 +15,16 @@ function Location() {
           <P>Saturday, 12:30–11:30pm</P>
         </div>
       </div>
-      <div className="container2">
+      <div className="container2" id="location">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.5035015337494!2d74.83784891482107!3d12.87531269091913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35bf0c749d73b%3A0xb2d28e68d87b13ce!2sKebab%C3%A7%C3%AF%20Mediterranean%20Grills%20%26%20Rolls!5e0!3m2!1sen!2sin!4v1609043523356!5m2!1sen!2sin"
           width="600"
           height="450"
-          frameborder="0"
+          frameBorder="0"
           style={{ border: 0 }}
-          allowfullscreen=""
+          allowFullScreen=""
           aria-hidden="false"
-          tabindex="0"
+          tabIndex="0"
           title="kebabci-manglore"
         ></iframe>
       </div>

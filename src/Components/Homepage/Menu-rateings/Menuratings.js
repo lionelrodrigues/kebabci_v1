@@ -8,9 +8,9 @@ function Menuratings() {
     <div className="Menu-rateings">
       <Title>TRY OUT OUR POPULAR OPTIONS</Title>
       <div className="popular-section">
-        {menuitems.map((item) => {
+        {menuitems.map((item, index) => {
           return (
-            <div className={item.cname}>
+            <div className={item.cname} key={index}>
               <P>{item.discription}</P>
             </div>
           );

@@ -1,9 +1,9 @@
 import React from "react";
 import { stack as Menu } from "react-burger-menu";
-import { NavLink } from "react-router-dom";
 import menuItems from "./Menuitems";
 import "./hamburger.css";
 import { useState } from "react";
+import { NavHashLink } from "react-router-hash-link";
 
 function Hamburger() {
   const [state, setstate] = useState(false);
@@ -18,8 +18,10 @@ function Hamburger() {
       >
         {menuItems.map((item, index) => {
           return (
-            <NavLink
+            <NavHashLink
               to={item.to}
+              smooth
+              activeClassName="activelink"
               id={item.id}
               className={item.cName}
               onClick={
@@ -33,7 +35,7 @@ function Hamburger() {
               key={index}
             >
               {item.title}
-            </NavLink>
+            </NavHashLink>
           );
         })}
       </Menu>

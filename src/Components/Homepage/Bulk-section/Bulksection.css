@@ -1,8 +1,10 @@
 .bulk-section {
   height: max-content;
-  background-image: url("https://images.unsplash.com/photo-1539755530862-00f623c00f52?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  min-height: 80vh;
+  background-image: url("https://cdn.pixabay.com/photo/2014/04/05/11/27/buffet-315691_960_720.jpg ");
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   display: flex;
   justify-content: center;

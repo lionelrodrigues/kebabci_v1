@@ -1,0 +1,30 @@
+.bulk-hero {
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1567159644489-23dad666da5c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+.hero-component {
+  width: 60vw;
+  height: max-content;
+  background-color: rgba(0, 0, 0, 0.281);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-component p {
+  font-size: medium;
+  font-weight: 500;
+}
+.hero-component h1 {
+  border-bottom: 2px solid white;
+}
+@media only screen and (max-width: 900px) {
+  .hero-component {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,78 @@
+.SectionTwo {
+  min-height: 100vh;
+  max-height: fit-content;
+  background-color: #171717;
+}
+.welcomeSection {
+  width: 90%;
+  margin: 0px auto;
+  text-align: center;
+  padding: 6rem;
+}
+.heading {
+  position: relative;
+}
+.welcomeSection-header {
+  font-size: 2rem;
+  margin: 2rem auto 1rem;
+  padding: 1rem;
+  color: #ffff;
+  font-family: "Merriweather", serif;
+}
+.border::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  height: 15px;
+  width: 50%;
+  transform: translateX(-50%);
+  border-bottom: 3px solid rgb(201, 5, 5);
+  margin-top: 0.5rem;
+}
+.Menusection {
+  text-align: center;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+.Menusection-header {
+  width: 50%;
+  margin: 2rem auto;
+  padding: 1rem;
+  order: 1;
+}
+.Menusection-headding {
+  position: relative;
+}
+.Menusection-Carousel {
+  width: 50%;
+  order: 0;
+}
+@media only screen and (max-width: 400px) {
+  .welcomeSection {
+    padding: 1rem 0.5rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .welcomeSection {
+    padding: 1.5rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .welcomeSection {
+    padding: 2rem;
+  }
+  .Menusection {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Menusection-Carousel {
+    width: 100%;
+    order: 1;
+  }
+  .Menusection-header {
+    width: 100%;
+  }
+}

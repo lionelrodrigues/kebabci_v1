@@ -6,7 +6,7 @@ function Bulksection() {
   return (
     <div className="bulk-section">
       <div className="inner-container">
-        <Title>
+        <Title primary>
           HAVING A PARTY? A FAMILY LUNKCH ? <br />
           TRY OUR BULK MENU
         </Title>

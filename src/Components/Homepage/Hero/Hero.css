@@ -6,37 +6,59 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 80vh;
-  background-image: url("https://images.unsplash.com/photo-1605908580297-f3e1c02e64ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
-  background-position: center;
+  height: 100vh;
+  background-image: url("/src/images/5M4A9834.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Merriweather", serif;
   font-weight: 700;
 }
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: hsla(0, 0%, 0%, 0.2);
+}
 .hero h1 {
+  position: relative;
   color: #ffff;
-  font-size: 5rem;
+  font-size: 6rem;
   font-family: "Merriweather", serif;
-  text-transform: uppercase;
   text-shadow: 1px 1px rgb(0, 0, 0);
   padding: 0.5rem 1rem;
+  margin: 0.5rem auto;
+}
+.hero button {
+  position: relative;
 }
 
 .hero p {
-  color: #ae0d12;
+  position: relative;
+  color: #ffffff;
   font-weight: 800;
   letter-spacing: 2px;
   font-size: 1rem;
-  border-bottom: 2px groove #fff;
+  border-bottom: 2px solid #fff;
+  font-weight: 600;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  margin: 5px auto;
 }
-@media only screen and (max-width: 900px) {
-  .hero {
-    height: 100vh;
-  }
+.down-arrow i {
+  font-size: 2.5rem;
+  color: #fff;
+  position: absolute;
+  bottom: 1rem;
+  margin: 0px auto;
 }
 @media only screen and (max-width: 400px) {
   .hero h1 {
-    font-size: 3rem;
+    font-size: 4.5rem;
+  }
+  .hero p {
+    font-size: 0.8rem;
   }
 }

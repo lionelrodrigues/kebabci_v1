@@ -1,0 +1,69 @@
+.aboutus-hero {
+  height: 90vh;
+  background-image: url("/src/images/5M4A9819.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutus-philo {
+  height: fit-content;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.philosop-section {
+  width: 80vw;
+  height: 100%;
+}
+.philosop-section > h1,
+.About-ourfood > h1 {
+  margin: 1rem auto;
+  padding: 1rem 0px;
+}
+.About-ourfood {
+  text-align: center;
+  background-color: #ae0d12;
+}
+.ourfood-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+.ourfood-container img {
+  height: 150px;
+  width: 150px;
+}
+.outfood-txt {
+  width: 50%;
+  height: 50%;
+}
+.outfood-txt h3 {
+  font-size: 2rem;
+  margin: 1rem auto;
+  border-bottom: 2px solid black;
+  padding-bottom: 0.5rem;
+}
+.right {
+  order: 2;
+}
+@media only screen and (max-width: 900px) {
+  .philosop-section {
+    width: 90vw;
+  }
+  .aboutus-hero {
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .outfood-txt h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem auto;
+  }
+  .ourfood-container img {
+    height: 120px;
+    width: 120px;
+  }
+}

@@ -7,7 +7,7 @@ function Socials() {
   return (
     <div className="socials">
       {menuItems.map((item, index) => {
-        if (index >= 6) {
+        if (index >= 7) {
           return (
             <Link
               to={item.to}
