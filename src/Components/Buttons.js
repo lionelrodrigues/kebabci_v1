@@ -26,13 +26,14 @@ export const Title = styled.h1`
   font-family: merriweather, serif;
   font-style: normal;
   font-weight: 600;
-  color: ${(props) => (props.primary ? "#ffd500" : "#ae0d12")};
+  color: ${(props) => (props.primary ? "#ffd500" : "#FFF")};
   letter-spacing: 2px;
   padding: 2rem auto;
   font-size: 3rem;
+  text-transform: uppercase;
 `;
 export const P = styled.p`
-  color: #fff;
+  color: ${(props) => (props.primary ? "#ffd500" : "#FFF")};
   padding: 1rem;
   line-spacing: 1rem;
   font-weight: 500;

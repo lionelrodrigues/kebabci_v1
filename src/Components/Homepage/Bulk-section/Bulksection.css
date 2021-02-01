@@ -1,7 +1,7 @@
 .bulk-section {
   height: max-content;
   min-height: 80vh;
-  background-image: url("https://cdn.pixabay.com/photo/2014/04/05/11/27/buffet-315691_960_720.jpg ");
+  background-image: url("/src/images/5M4A9820.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -28,9 +28,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem 4rem;
+  padding: 1rem auto;
   flex-wrap: wrap;
   text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 3rem auto;
+}
+.container-header {
+  position: relative;
+  margin: 2rem auto;
+}
+.container-paragraph {
+  width: 60vw;
+  margin: 1rem auto;
 }
 .inner-container > p {
   padding: 1rem 4rem;
@@ -42,11 +53,15 @@
 @media only screen and (max-width: 900px) {
   .inner-container {
     padding: 0.5rem 1rem;
+    width: 100vw;
   }
   .inner-container > H2 {
     padding: 0.5rem 1rem;
   }
   .inner-container > p {
     padding: 0.5rem 1rem;
+  }
+  .container-paragraph {
+    width: 100%;
   }
 }

@@ -23,12 +23,11 @@
   content: "";
   position: absolute;
   left: 50%;
-  bottom: 0px;
+  bottom: -0.5rem;
   height: 15px;
-  width: 50%;
+  width: 60%;
   transform: translateX(-50%);
   border-bottom: 3px solid rgb(201, 5, 5);
-  margin-top: 0.5rem;
 }
 .Menusection {
   text-align: center;
@@ -44,6 +43,9 @@
 }
 .Menusection-headding {
   position: relative;
+}
+.Menusection-Content {
+  margin: 1rem auto;
 }
 .Menusection-Carousel {
   width: 50%;
@@ -63,9 +65,6 @@
   .welcomeSection {
     padding: 2rem;
   }
-  .Menusection {
-    flex-direction: column;
-  }
 }
 @media only screen and (max-width: 1000px) {
   .Menusection-Carousel {
@@ -74,5 +73,8 @@
   }
   .Menusection-header {
     width: 100%;
+  }
+  .Menusection {
+    flex-direction: column;
   }
 }

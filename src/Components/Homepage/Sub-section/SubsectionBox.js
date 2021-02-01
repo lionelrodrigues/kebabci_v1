@@ -2,8 +2,8 @@ import React from "react";
 const Subsectionbox1 = () => {
   return (
     <div className="subsection-box" id="#contact">
-      <img src="/images/contact_us.svg" alt="contact"></img>
-      <h3>Contact us</h3>
+      <img src="/images/ingredients.svg" alt="contact"></img>
+      <h3>Fresh ingredients</h3>
       <p>
         Change is good, especially when it means adding new dishes to our menu.
         Culpa qui officia deserunt mollit anim id est laborum. Sed ut
@@ -17,7 +17,7 @@ const Subsectionbox2 = () => {
   return (
     <div className="subsection-box">
       <img src="/images/skewer.svg" alt="skwer" />
-      <h3>Our philosophy</h3>
+      <h3>authentic recepies</h3>
       <p>
         Change is good, especially when it means adding new dishes to our menu.
         Culpa qui officia deserunt mollit anim id est laborum. Sed ut
@@ -30,8 +30,8 @@ const Subsectionbox2 = () => {
 const Subsectionbox3 = () => {
   return (
     <div className="subsection-box">
-      <img src="/images/menu.svg" alt="menu"></img>
-      <h3>Download menu</h3>
+      <img src="/images/group.svg" alt="menu"></img>
+      <h3>Perfect for groups</h3>
       <p>
         Change is good, especially when it means adding new dishes to our menu.
         Culpa qui officia deserunt mollit anim id est laborum. Sed ut
