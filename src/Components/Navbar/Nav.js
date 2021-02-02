@@ -20,7 +20,7 @@ function Nav() {
   return (
     <nav>
       <div className={navBackground ? "nav active" : "nav"}>
-        <NavHashLink to="/" id="home">
+        <NavHashLink to="/" id="home" smooth>
           <img src="/images/logo.png" alt="logo" className="logo" />
         </NavHashLink>
         <div id="circle"></div>

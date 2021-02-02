@@ -12,12 +12,10 @@ function Hero() {
       <NavHashLink
         to="route"
         smooth
-        id="menu"
+        id="order-online"
         onClick={(e) => {
           e.preventDefault();
-          window.open(
-            "https://drive.google.com/file/u/6/d/1TqVoihdQ-jPt-9s0msP35Gz-fyreB0p8/view?usp=sharing"
-          );
+          window.open("https://www.zomato.com/mangalore/kebabci-1-kodailbail");
         }}
       >
         <Button primary>Order Now</Button>

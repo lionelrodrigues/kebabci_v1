@@ -30,7 +30,7 @@ function MenuSection() {
               );
             }}
           >
-            <Button primary>Order Now</Button>
+            <Button primary>View menu</Button>
           </NavHashLink>
         </div>
       </div>
