@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "../../carousel/Carousel";
 import { Title, P, Button } from "../../Buttons.js";
+import { NavHashLink } from "react-router-hash-link";
 function MenuSection() {
   return (
     <div className="Menusection">
@@ -18,7 +19,19 @@ function MenuSection() {
             recipes. <br />
             write about youtr menu and highlight the uniqueness{" "}
           </P>
-          <Button primary>view menu</Button>
+          <NavHashLink
+            to="route"
+            smooth
+            id="menu"
+            onClick={(e) => {
+              e.preventDefault();
+              window.open(
+                "https://drive.google.com/file/u/6/d/1TqVoihdQ-jPt-9s0msP35Gz-fyreB0p8/view?usp=sharing"
+              );
+            }}
+          >
+            <Button primary>Order Now</Button>
+          </NavHashLink>
         </div>
       </div>
       <div className="Menusection-Carousel">
