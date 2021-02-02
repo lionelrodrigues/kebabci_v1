@@ -3,7 +3,7 @@ import { Title, P } from "../../Buttons";
 
 function ContactContainer() {
   return (
-    <div className="ContactContainer">
+    <div className="ContactContainer" id="info">
       <div className="Container-Header">
         <Title primary> Contact</Title>
         <div className="border" />

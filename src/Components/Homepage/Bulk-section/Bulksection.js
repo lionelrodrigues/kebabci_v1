@@ -1,4 +1,5 @@
 import React from "react";
+import { NavHashLink } from "react-router-hash-link";
 import { Button, Title, P } from "../../Buttons";
 import "./Bulksection.css";
 
@@ -23,7 +24,19 @@ function Bulksection() {
             with the release of Letraset sheets containin
           </P>
         </div>
-        <Button primary>Bulk menu</Button>
+        <NavHashLink
+          to="route"
+          smooth
+          id="bulk-order"
+          onClick={(e) => {
+            e.preventDefault();
+            window.open(
+              "https://drive.google.com/file/d/1rxPBH68TKZyVbKJs_ProzoOU_gQOEdC0/view?usp=sharing"
+            );
+          }}
+        >
+          <Button primary>Bulk-order Menu</Button>
+        </NavHashLink>
       </div>
     </div>
   );

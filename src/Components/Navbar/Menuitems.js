@@ -7,20 +7,13 @@ export const menuItems = [
     extern: false,
   },
   {
-    to: "/#menu",
+    to: "route",
     id: "Menu",
     cName: "menu-item",
     title: "Menu",
     window:
       "https://drive.google.com/file/u/6/d/1TqVoihdQ-jPt-9s0msP35Gz-fyreB0p8/view?usp=sharing",
     extern: true,
-  },
-  {
-    to: "/#location",
-    id: "Location",
-    cName: "menu-item",
-    title: "Location",
-    extern: false,
   },
   {
     to: "/#info",
@@ -37,11 +30,13 @@ export const menuItems = [
     extern: false,
   },
   {
-    to: "/bulk-order",
+    to: "route",
     id: "bulk-order",
     cName: "menu-item",
     title: "bulk-menu",
-    extern: false,
+    window:
+      "https://drive.google.com/file/d/1rxPBH68TKZyVbKJs_ProzoOU_gQOEdC0/view?usp=sharing",
+    extern: true,
   },
   {
     to: "route",
@@ -55,6 +50,7 @@ export const menuItems = [
     to: "route",
     id: "facebook",
     cName: "fab fa-facebook",
+    window: "https://www.facebook.com/kebabcimlr",
     extern: true,
   },
   {

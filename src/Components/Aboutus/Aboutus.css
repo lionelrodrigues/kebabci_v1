@@ -1,6 +1,6 @@
 .aboutus-hero {
-  height: 90vh;
-  background-image: url("/src/images/5M4A9820.jpeg");
+  height: 70vh;
+  background-image: url("/src/images/5M4A9842.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,11 +16,6 @@
 .philosop-section {
   width: 80vw;
   height: 100%;
-}
-.philosop-section > h1,
-.About-ourfood > h1 {
-  margin: 1rem auto;
-  padding: 1rem 0px;
 }
 .About-ourfood {
   text-align: center;
@@ -49,12 +44,51 @@
 .right {
   order: 2;
 }
+.About-ourfood-textcontent {
+  width: 80%;
+  margin: 0px auto;
+  padding: 2rem;
+}
+.About-ourfood {
+  width: auto;
+  padding: 2.5rem;
+  margin: 0px auto;
+}
+.section-heading {
+  width: 80%;
+  margin: 0px auto;
+  padding: 2rem 1rem;
+  position: relative;
+}
+.section-textcontent {
+  width: 80%;
+  margin: 0px auto;
+  text-align: left;
+  padding: 1rem;
+}
+.aboutus-carousel-container {
+  width: 70%;
+  margin: 0px auto;
+}
 @media only screen and (max-width: 900px) {
   .philosop-section {
-    width: 90vw;
+    width: 100vw;
   }
-  .aboutus-hero {
-    height: 100vh;
+  .About-ourfood-textcontent {
+    padding: 1rem;
+    width: 100%;
+  }
+  .aboutus-carousel-container {
+    width: 100%;
+    min-height: 50vh;
+  }
+  .section-heading {
+    width: 100%;
+    margin: 0px auto;
+    padding: 2rem 0.5rem;
+  }
+  .section-textcontent {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 500px) {

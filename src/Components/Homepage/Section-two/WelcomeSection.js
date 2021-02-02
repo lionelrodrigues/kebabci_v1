@@ -1,4 +1,5 @@
 import React from "react";
+import { NavHashLink } from "react-router-hash-link";
 import { Button, P } from "../../Buttons";
 
 function WelcomeSection() {
@@ -14,7 +15,9 @@ function WelcomeSection() {
         <br />
         We specialize in Indian Cuzine and people visit us for Quick bites
       </P>
-      <Button> About US</Button>
+      <NavHashLink to="/Aboutus" smooth id="menu">
+        <Button primary>About us</Button>
+      </NavHashLink>
     </div>
   );
 }

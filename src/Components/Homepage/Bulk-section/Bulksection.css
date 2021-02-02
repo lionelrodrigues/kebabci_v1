@@ -1,10 +1,10 @@
 .bulk-section {
   height: max-content;
   min-height: 80vh;
-  background-image: url("/src/images/5M4A9820.jpeg");
-  background-position: center;
+  background-image: url("/src/images/5M4A9820.jpg");
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   display: flex;
   justify-content: center;

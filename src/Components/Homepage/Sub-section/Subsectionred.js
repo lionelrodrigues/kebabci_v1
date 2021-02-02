@@ -5,7 +5,7 @@ import "./subsection.css";
 function Subsectionred() {
   return (
     <div>
-      <div className="subsection-container" id="info">
+      <div className="subsection-container">
         <SubsectionBox />
       </div>
     </div>
