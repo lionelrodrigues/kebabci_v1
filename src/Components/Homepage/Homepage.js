@@ -8,7 +8,7 @@ import SectionTwo from "./Section-two/SectionTwo";
 
 function Homepage() {
   return (
-    <main className="main">
+    <main className="main" id="home">
       <Hero />
       <SectionTwo />
       <Subsectionred />

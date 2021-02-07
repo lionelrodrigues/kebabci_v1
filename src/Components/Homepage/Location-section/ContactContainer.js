@@ -14,8 +14,8 @@ function ContactContainer() {
           Kodailbail, Mangalore, Karnataka 575003
         </P>
         <div className="Container-phone">
-          <a href="tel:1234567">
-            <i class="fas fa-mobile-alt"></i>123-4567
+          <a href="tel:+919178044122">
+            <i class="fas fa-mobile-alt"></i>+91 9148044722
           </a>
         </div>
       </div>
@@ -25,7 +25,7 @@ function ContactContainer() {
         </div>
         <div className="hours-data">
           <P>Monday to Sunday </P>
-          <P primary>12:30pn - 11:30pm</P>
+          <P primary>12:30pm - 11:30pm</P>
         </div>
       </div>
     </div>

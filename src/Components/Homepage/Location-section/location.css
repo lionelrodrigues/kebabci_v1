@@ -19,6 +19,7 @@
 }
 .location-iframe {
   width: 100%;
+  padding: 1rem 0px 0.5rem;
 }
 .location-iframe iframe {
   width: 100%;
@@ -37,6 +38,7 @@
 }
 .Container-phone {
   padding: 0.5rem;
+  margin: 1rem auto;
 }
 .Container-phone a {
   padding: 0.8rem;
@@ -45,6 +47,19 @@
   color: #fff;
   font-size: 1.5rem;
   width: 100%;
+  border: 2px solid #ae0d12;
+  border-radius: 3px;
+  background-color: #ae0d12;
+}
+.Container-phone a:hover {
+  color: #ae0d12;
+  background-color: #fff;
+  border: 2px solid #ae0d12;
+  outline: none;
+  transition: all 0.3s ease-in;
+}
+.Container-phone a :active {
+  outline: none;
 }
 .Container-phone a > i {
   padding: 0.5rem;

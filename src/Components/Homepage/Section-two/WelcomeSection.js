@@ -15,7 +15,7 @@ function WelcomeSection() {
         <br />
         We specialize in Indian Cuzine and people visit us for Quick bites
       </P>
-      <NavHashLink to="/Aboutus" smooth id="menu">
+      <NavHashLink to="/aboutus/#aboutus" smooth id="menu">
         <Button primary>About us</Button>
       </NavHashLink>
     </div>

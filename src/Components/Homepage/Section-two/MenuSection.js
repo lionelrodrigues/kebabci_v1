@@ -16,8 +16,12 @@ function MenuSection() {
         <div className="Menusection-Content">
           <P>
             All of the food served is prepared in our kitchen using our own
-            recipes. <br />
-            write about youtr menu and highlight the uniqueness{" "}
+            recipes. we serve a large variety of hand crafted Kebabs and rolls
+            with a zest of our own flavours to it.
+            <br />
+            <br />
+            Our menu consits of wide varity of options from handcrafed rolls to
+            Dum biriyani.
           </P>
           <NavHashLink
             to="route"

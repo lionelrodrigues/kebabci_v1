@@ -7,7 +7,7 @@ import Footer from "../Footer/Footer";
 
 function Aboutus() {
   return (
-    <main className="main">
+    <main className="main" id="aboutus">
       <Nav />
       <div className="aboutus-hero"></div>
       <Philosop />

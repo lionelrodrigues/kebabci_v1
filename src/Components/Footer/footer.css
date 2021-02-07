@@ -1,15 +1,20 @@
 .footer {
-  height: 20vh;
-  max-height: fit-content;
   background-color: #ae0d12;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #ffffff;
 }
+.footer-sub {
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+  display: flex;
+}
 .footer p {
-  padding-left: 10px;
+  padding: 0.5rem;
   font-size: 1rem;
+  margin: 0px auto;
 }
 .socials a {
   color: white;
@@ -24,11 +29,15 @@
   margin: 1rem auto;
   position: relative;
 }
+.footer-copyright {
+  margin: 1rem auto 1rem 10%;
+}
 @media only screen and (max-width: 900px) {
   .footer {
     flex-direction: column;
   }
-  .socials {
-    padding-left: 1rem;
+
+  .footer-sub {
+    flex-direction: column-reverse;
   }
 }

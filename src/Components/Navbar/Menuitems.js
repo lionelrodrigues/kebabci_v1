@@ -1,7 +1,7 @@
 export const menuItems = [
   {
-    to: "/",
-    id: "home",
+    to: "/#home",
+    id: "Home",
     cName: "menu-item",
     title: "Home",
     extern: false,
@@ -23,7 +23,7 @@ export const menuItems = [
     extern: false,
   },
   {
-    to: "/Aboutus",
+    to: "/aboutus/#aboutus",
     id: "About-us",
     cName: "menu-item",
     title: "About Us",
