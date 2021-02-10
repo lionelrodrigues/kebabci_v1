@@ -16,12 +16,12 @@ function Bulksection() {
         </div>
         <div className="container-paragraph">
           <P>
-            Lorem Ipsum has been the industry's standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containin
+            We provide bulk ordering services to Companies and startups. We
+            service office catering and house parties.There's always some party
+            going on that requires feeding the masses. Birthdays, baptisms,
+            block parties, reunions...you name it, we cook for it with express
+            delivery!. To know more about bulk-ordering menu and its terms and
+            conditions click below.
           </P>
         </div>
         <NavHashLink

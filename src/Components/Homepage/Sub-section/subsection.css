@@ -47,6 +47,7 @@
 .subsection-box p {
   padding: 0.5rem 1.5rem;
   color: #fff;
+  text-align: justify;
 }
 @media only screen and (max-width: 900px) {
   .sub-section {

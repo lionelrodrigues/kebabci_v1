@@ -11,14 +11,23 @@ function Philosop() {
         </div>
         <div className="section-textcontent">
           <P>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            consequat est dolor, sit amet suscipit dolor rutrum eu. Duis semper
-            aliquet ex, eget placerat nisi fringilla vel. Curabitur euismod,
-            metus sed placerat feugiat, urna elit sollicitudin ipsum, vel
-            gravida ante nisl sit amet enim. Duis laoreet id nunc at
-            scelerisque. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Maecenas tortor nulla,
-            ultrices sed risus vel, lacinia cursus est.
+            The Kebabci’s incredible journey begins in 2018. Kebabci opened its
+            doors as a quick bite takeaway restaurant. The restaurant quickly
+            became a go-to-go place with its top-quality shawarmas,
+            unprecedented food quality.
+          </P>
+          <P>
+            We pivoted to selling halal food. Word spread about the unique jumbo
+            Rolls we offer, and our fanbase quickly expanded beyond youngsters
+            to a much larger, diverse demographic of Mangaloreans, eager to
+            experience new and exotic tastes, textures, and flavors.
+          </P>
+          <P>
+            The Kebabci way has been the same for 2 years, we believe in
+            treating every customer with sincere appreciation, honor, dignity,
+            and respect. By offering many unique options to charcoal meat
+            lovers, Kebabci brought extra flair to the shawarma culture and
+            still serves as an indispensable location for its guests.
           </P>
         </div>
         <div className="aboutus-carousel-container">

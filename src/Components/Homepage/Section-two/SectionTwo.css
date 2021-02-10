@@ -12,6 +12,10 @@
 .heading {
   position: relative;
 }
+.welcomesection-paragraph {
+  width: 80%;
+  margin: 0px auto;
+}
 .welcomeSection-header {
   font-size: 2rem;
   margin: 2rem auto 1rem;
@@ -51,6 +55,7 @@
   width: 50%;
   order: 0;
 }
+
 @media only screen and (max-width: 400px) {
   .welcomeSection {
     padding: 1rem 0.5rem !important;
@@ -76,5 +81,8 @@
   }
   .Menusection {
     flex-direction: column;
+  }
+  .welcomesection-paragraph {
+    width: 100%;
   }
 }

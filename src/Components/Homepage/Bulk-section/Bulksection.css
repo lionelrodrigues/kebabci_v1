@@ -4,7 +4,6 @@
   background-image: url("/src/images/5M4A9820.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -42,6 +41,8 @@
 .container-paragraph {
   width: 60vw;
   margin: 1rem auto;
+  font-size: 18px;
+  font-weight: 800;
 }
 .inner-container > p {
   padding: 1rem 4rem;

@@ -17,11 +17,9 @@ function MenuSection() {
           <P>
             All of the food served is prepared in our kitchen using our own
             recipes. we serve a large variety of hand crafted Kebabs and rolls
-            with a zest of our own flavours to it.
-            <br />
-            <br />
-            Our menu consits of wide varity of options from handcrafed rolls to
-            Dum biriyani.
+            with a zest of our own flavours to it. Our menu consits of wide
+            varity of options from handcrafed rolls to Dum biriyani. To view our
+            menu click menu
           </P>
           <NavHashLink
             to="route"
